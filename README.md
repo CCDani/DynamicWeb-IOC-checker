@@ -6,7 +6,6 @@ Este repositorio contiene una aplicación web dinámica desarrollada con Flask q
 
 - [Funcionalidades de la Nueva Web](#funcionalidades-de-la-nueva-web)
 - [Requisitos](#requisitos)
-- [Uso](#uso)
 
 
 
