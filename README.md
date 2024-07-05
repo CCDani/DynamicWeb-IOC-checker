@@ -6,6 +6,7 @@ Este repositorio contiene una aplicación web dinámica desarrollada con Flask q
 
 - [Funcionalidades de la Nueva Web](#funcionalidades-de-la-nueva-web)
 - [Requisitos](#requisitos)
+- [Instalación](#Instalación)
 
 
 
@@ -46,3 +47,42 @@ Este repositorio contiene una aplicación web dinámica desarrollada con Flask q
 - Python 3.6 o superior
 - Flask
 - requests
+
+
+## Instalación
+
+Sigue estos pasos para instalar y desplegar la web en [PythonAnywhere](https://www.pythonanywhere.com/):
+
+### 1. Crear un Entorno Virtual en el Servidor
+
+```bash
+mkvirtualenv myvirtualenv --python=/usr/bin/python3.10
+
+```
+
+```bash
+workon myvirtualenv
+pip install Flask requests
+```
+
+Puedes comprobar si Flask y request estan instaldos con pip list
+```bash
+pip list
+
+```
+Subir Archivos Estáticos
+Asegúrate de que los archivos están en los directorios correctos y configurados para ser servidos correctamente.
+
+Asegurate de que el entorno virtual esta en la ruta correcta.
+/home/tu_usuario/.virtualenvs/myvirtualenv
+
+Probar la Aplicación
+Ve a la URL proporcionada por PythonAnywhere (por ejemplo, http://your_username.pythonanywhere.com) y verifica que la aplicación funciona correctamente.
+
+
+
+
+
+
+
+
