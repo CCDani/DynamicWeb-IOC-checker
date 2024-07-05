@@ -53,7 +53,7 @@ Este repositorio contiene una aplicación web dinámica desarrollada con Flask q
 
 Sigue estos pasos para instalar y desplegar la web en [PythonAnywhere](https://www.pythonanywhere.com/):
 
-### 1. Crear un Entorno Virtual en el Servidor
+### Crear un Entorno Virtual en el Servidor
 
 ```bash
 mkvirtualenv myvirtualenv --python=/usr/bin/python3.10
@@ -65,7 +65,7 @@ workon myvirtualenv
 pip install Flask requests
 ```
 
-Puedes comprobar si Flask y request estan instaldos con pip list
+Puedes comprobar si Flask y requests estan instaldos con pip list
 ```bash
 pip list
 
