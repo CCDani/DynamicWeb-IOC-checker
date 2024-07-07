@@ -80,7 +80,10 @@ Probar la Aplicación
 Ve a la URL proporcionada por PythonAnywhere (por ejemplo, http://your_username.pythonanywhere.com) y verifica que la aplicación funciona correctamente.
 
 
-Atribución: Icono realizazo por [Vlad Szirka](https://www.flaticon.es/iconos-gratis/malware):
+
+
+
+Atribución: Icono realizazo por [Vlad Szirka](https://www.flaticon.es/iconos-gratis/malware)
 
 
 
