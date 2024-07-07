@@ -1,4 +1,4 @@
-# Web de IOCS Dinámica con Flask
+# Web para buscar IOCS Dinámica con Flask
 
 Este repositorio contiene una aplicación web dinámica desarrollada con Flask que permite la consulta de Indicadores de Compromiso (IOCs) utilizando la API de VirusTotal. Esta nueva versión mejora y amplía las funcionalidades de la web estática anterior.
 
@@ -78,6 +78,16 @@ Asegurate de que el entorno virtual esta en la ruta correcta.
 
 Probar la Aplicación
 Ve a la URL proporcionada por PythonAnywhere (por ejemplo, http://your_username.pythonanywhere.com) y verifica que la aplicación funciona correctamente.
+
+
+Atribución: Icono realizazo por [Vlad Szirka](https://www.flaticon.es/iconos-gratis/malware):
+
+
+
+
+
+
+
 
 
 
