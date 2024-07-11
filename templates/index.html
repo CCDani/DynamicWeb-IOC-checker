@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOC Checker - Check Indicators of Compromise with VirusTotal</title>
+    <meta name="description" content="Use our IOC Checker to quickly and easily check Indicators of Compromise (IOCs) using the VirusTotal API. Ensure your cybersecurity with our reliable tool.">
+    <link rel="stylesheet" href="/static/estilos.css">
+    <link rel="icon" href="/static/virus.png" type="image/png">
+    <meta property="og:title" content="IOC Checker - VirusTotal">
+    <meta property="og:description" content="Use our IOC Checker to quickly and easily check Indicators of Compromise (IOCs) using the VirusTotal API. Ensure your cybersecurity with our reliable tool.">
+    <meta property="og:image" content="/static/virus.png">
+    <meta property="og:url" content="https://checkyourioc.pythonanywhere.com/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IOC Checker - VirusTotal">
+    <meta name="twitter:description" content="Use our IOC Checker to quickly and easily check Indicators of Compromise (IOCs) using the VirusTotal API. Ensure your cybersecurity with our reliable tool.">
+    <meta name="twitter:image" content="/static/virus.png">
+</head>
+<body>
+    <div id="app">
+        <h1 style="text-align: center;">IOC Checker</h1>
+        <label for="api-key">Enter your api key</label>
+        <input type="password" id="api-key" name="api-key" placeholder="VirusTotal API Key"><br>
+
+        <label for="ioc-input">Enter the IOCs:</label>
+        <textarea id="ioc-input" name="ioc-input" rows="10" cols="50"></textarea><br>
+
+        <div class="form-group" style="padding: 15px 15px 15px 0">
+            <label style="display: block">
+                <input type="radio" id="modo-filtrado" name="modo" value="Filtered" checked>
+                Filtered mode (extract hashes, URLs, domains, and IPs)
+            </label>
+            <label style="display: block">
+                <input type="radio" id="modo-completo" name="modo" value="Complete">
+                One IOC per line
+            </label>
+        </div>
+
+        <button onclick="procesarIOCs()">Check</button>
+        <button onclick="clearIOCs()">Clear IOC list</button><br><br>
+
+        <div id="progress-bar"><div></div></div>
+        <p id="result-count"></p>
+
+        <label for="resultados">Results:</label>
+        <textarea id="resultados" name="resultados" rows="10" cols="50" readonly></textarea><br><br>
+
+        <button onclick="copiarResultados()">Copy Results</button>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">
+            <a href="https://github.com/juanse77" title="Computer Engineer specialized in Computer Science and Software Engineering from the University of Las Palmas de Gran Canaria.">With the help and collaboration of Juanse</a><br><br>
+            <a href="https://www.flaticon.es/iconos-gratis/malware" title="malware iconos">Attribution: icons created by Vlad Szirka - Flaticon</a><br><br>
+            <a href="https://github.com/CCDani/DynamicWeb-IOC-checker" title="Website's GitHub repository">Website's GitHub repository, and deployment information</a><br><br>
+        </p>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
